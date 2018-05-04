@@ -1,4 +1,3 @@
-
 h1 {
   text-align: center;
   background-color: black;
@@ -6,31 +5,68 @@ h1 {
 .col-lg1 {
   width: 100%;
   height: 100%;
-  border: 10px solid green;
+  border: 20px solid green;
 }
 .col-lg2 {
   width: 100%;
   height: 100%;
-  border: 10px solid yellow;
+  border: 20px solid yellow;
 }
 .col-lg3 {
   width: 100%;
   height: 100%;
-  border: 10px solid black;
+  border: 20px solid black;
+}
+.arena-container {
+  position: sticky;
+  margin-left: 8%;
+}
+#battle {
+  position: absolute;
+  width: 350px;
+  margin-left: 33%;
 }
 #king {
-  width:50%;
-  height:50%;
+  height: 150px;
+  width: 150px;
+  margin-left: 45%;
+  z-index: 1;
+  position: absolute;
+}
+#battle1 {
+  position: absolute;
+  width: 350px;
+  margin-left: 33%;
 }
 #bird {
-  width:50%;
-  height:50%;
+  width: 150px;
+  height: 150px;
+  margin-left: 52%;
+  z-index: 1;
+  position: absolute;
+}
+#battle2 {
+  position: absolute;
+  width: 350px;
+  margin-left: 33%;
 }
 #badbunny {
-  width:50%;
-  height:50%;
+  width: 100px;
+  height: 100px;
+  margin-top: 29px;
+  margin-left: 764px;
+  z-index: 1;
+  position: absolute;
 }
 #thekingsstats {
-  margin-left: 200px;
+  margin-left: 40%;
+  text-align: center;
+}
+#theelectricbird {
+  margin-left: 40%;
+  text-align: center;
+}
+#darkbunny {
+  margin-left: 40%;
   text-align: center;
 }
