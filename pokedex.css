@@ -21,6 +21,10 @@ h1 {
   position: sticky;
   margin-left: 8%;
 }
+
+/*
+  I don't want to see anymore styling using the #selector jose. Come talk to me if you're not sure what I mean by thiss
+*/
 #battle {
   position: absolute;
   width: 350px;
@@ -58,6 +62,18 @@ h1 {
   z-index: 1;
   position: absolute;
 }
+
+/*
+  if you want to give the same styling to more than one selector use the comma-separated list
+
+  eg: 
+
+  .thekingsstats, theelectricbird, darkbunny{
+    margin-left: 40%;
+    text-align: center;
+  }
+
+*/
 #thekingsstats {
   margin-left: 40%;
   text-align: center;

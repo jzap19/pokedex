@@ -33,9 +33,12 @@ let specialattack2 = document.querySelector('.umbreonspecialattack')
 let defense2 = document.querySelector('.umbreondefense')
 let attack2 = document.querySelector('.umbreonattack')
 let hp2 = document.querySelector('.umbreonhp')
+
 class Trainer {
   constructor(myResponse) {
     this.name = myResponse.data.name;
+
+    // there is no variable called josesPokemon. where is this coming from?
     this.pokemon = josesPokemon.data.name;
   }
 }
